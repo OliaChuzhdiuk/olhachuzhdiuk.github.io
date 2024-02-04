@@ -1,0 +1,11 @@
+:root {
+  /* Глобальні змінні */
+  --primary-text-color: #000;
+  --primary-bg-color: #fff;
+}
+
+footer {
+  /* Змінні для Footer*/
+  --footer-text-color: #fff;
+  --footer-bg-color: #000;
+}

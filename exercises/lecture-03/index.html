@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Підключення css/main.css за допомогою посилання -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Lesson 3</title>
+    <!-- Стилі до завдання 2-->
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+    <!-- Стилі до завдання 3 -->
+    <style>
+      .exciting {
+        background: #f69d3c;
+        border: 1px solid #696969;
+        padding: 10px;
+      }
+    </style>
+
+    <!-- Стилі до завдання 4 -->
+    <style type="text/css">
+      body {
+        background: var(--bgColor);
+      }
+
+      div {
+        --bgColor: limegreen;
+      }
+      p {
+        background: var(--bgColor);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--  Додавання статті з Вікіпедії -->
+    <h2>Сторінка Вікіпедії для мови CSS</h2>
+    <iframe
+      src="https://uk.wikipedia.org/wiki/CSS"
+      title="Сторінка Вікіпедії для мови CSS"
+      width="600"
+      height="300"
+    ></iframe>
+
+    <!-- Робота з праграфом та стилями-->
+    <p style="color: blue">This is my paragraph</p>
+    <!-- 
+        Текст "This is my paragraph" матиме колір blue, атрибут style для тега p 
+        зі значенням color: blue, який переважає властивість color: red, визначену в елементі style.
+    -->
+
+    <!-- Виправлення помилок  -->
+
+    <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+    <p class="exciting">
+      The most exciting paragraph on the page. One of a kind!
+    </p>
+    <div class="exciting">
+      The most exciting paragraph on the page. One of a kind!
+    </div>
+
+    <!-- Видалила ідентифікатор id="exciting" і замінила його на клас class="exciting". Ідентифікатори використовуються для точного визначення конкретного елемента, забезпечуючи йому унікальність. Іх не можна використовувати двічі для різних елементів -->
+
+    <!-- Чи буде змінна --bgColor видимою для елемента body. Яким буде фон елемента body і чому. -->
+    <div>
+      <h3>Div 1</h3>
+      <p>Paragraph 1</p>
+    </div>
+
+    <div>
+      <h3>Div 2</h3>
+      <p>Paragraph 2</p>
+    </div>
+    <!-- В даному випадку фон елемента body залишиться за замовчуванням або буде відсутнім, оскільки змінна --bgColor визначена лише в контексті елементів div. -->
+
+    <footer>
+      <!-- "About" -->
+      <section>
+        <div>
+          <h2>About</h2>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- "Resources" -->
+      <section>
+        <div>
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">eBooks</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- "Contact" -->
+      <section>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer legal -->
+      <section>
+        <ul>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p>&copy; 2024 Copyright Shopaholic Inc.</p>
+      </section>
+    </footer>
+  </body>
+</html>
