@@ -1,7 +1,10 @@
 @import url("./common.css");
+@import url("./about.css");
+@import url("./blog.css");
+@import url("./catalog.css");
+@import url("./contact.css");
 
 /* Використання глобальних змінних для елемента body */
-@import url(common.css);
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
@@ -16,3 +19,6 @@ body {
  @import url("my-imported-styles.css"); */
 
 /* Неправильне розміщення @import. Згідно специфікації CSS, правило @import повинно розташовуватися на початку CSS-файлу */
+h1 {
+  color: black;
+}

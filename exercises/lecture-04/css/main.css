@@ -1,0 +1,102 @@
+/* Стилі до завдання 2 */
+h1,
+h2,
+h3 {
+  color: gray;
+}
+#main {
+  color: #e60202;
+}
+.h2 {
+  color: red;
+}
+.heading {
+  color: green;
+}
+
+/* Стилі до завдання 3*/
+ul > li {
+  font-weight: bold;
+}
+
+section > p {
+  color: red;
+}
+
+/* Колір тексту p всередині елемента div не зміниться, оскільки стилі визначені для p всередині section. */
+
+section p {
+  font-size: 30px;
+}
+
+/* Стилі до завдання 4 */
+h2:first-of-type {
+  color: indigo;
+}
+p.first a {
+  color: green;
+}
+.first a {
+  color: green;
+}
+div ~ p {
+  color: salmon;
+}
+
+/* Стилі до завдання 5 */
+.black {
+  --hex-black-color: #000000;
+  --rgb-black-color: rgb(0, 0, 0);
+  --hsl-black-color: hsl(0, 0%, 0%);
+  --rgba-black-color: rgba(0, 0, 0, 0.5);
+}
+.blue {
+  --hex-blue-color: #0000ff;
+  --rgb-blue-color: rgb(0, 0, 255);
+  --hsl-blue-color: hsl(240, 100%, 50%);
+  --rgba-blue-color: rgba(0, 0, 255, 0.5);
+}
+.green {
+  --hex-green-color: #008000;
+  --rgb-green-color: rgb(0, 128, 0);
+  --hsl-green-color: hsl(120, 100%, 25%);
+  --rgba-green-color: rgba(0, 128, 0, 0.5);
+}
+.red {
+  --hex-red-color: #ff0000;
+  --rgb-red-color: rgb(255, 0, 0);
+  --hsl-red-color: hsl(0, 100%, 50%);
+  --rgba-red-color: rgba(255, 0, 0, 0.5);
+}
+
+.white {
+  --hex-white-color: #ffffff;
+  --rgb-white-color: rgb(255, 255, 255);
+  --hsl-white-color: hsl(0, 0%, 100%);
+  --rgba-white-color: rgba(255, 255, 255, 0.5);
+}
+
+.yellow {
+  --hex-yellow-color: #ffff00;
+  --rgb-yellow-color: rgb(255, 255, 0);
+  --hsl-yellow-color: hsl(60, 100%, 50%);
+  --rgba-yellow-color: rgba(255, 255, 0, 0.5);
+}
+
+/* Стилі до завдання 6 */
+.translucent-box {
+  width: 200px;
+  height: 50px;
+  background: hsla(0, 100%, 50%, 0.5);
+}
+
+/* Стилі до завдання 7 */
+/* html {
+  font-size: 100%;
+}
+body {
+  font-size: 140%;
+}
+h1 {
+  font-size: 240%;
+} */
