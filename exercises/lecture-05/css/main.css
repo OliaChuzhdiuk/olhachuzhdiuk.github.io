@@ -1,0 +1,23 @@
+/* css/main.css */
+/* Стилі до завдання 3 */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+/* Слова «Outer» відображається з розміром 25,6 пікселів, а слово «inner» — 40,96 пікселів. */
+/* Розмір слова "Outer" / Розмір шрифту body = 25.6 / 16 = 1.6em */
+div {
+  font-size: 1.6em;
+}
+/* Розмір шрифту body = 40.96 / 16 = 2.56em */
+span {
+  font-size: 2.56em;
+}
+/* Стилі до завдання 4 */
+strong {
+  font-size: 1.6em;
+}
+/* Стилі до завдання 5 */
+ul {
+  list-style-type: square;
+}

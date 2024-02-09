@@ -1,7 +1,10 @@
 /* common.css */
+/* Стилі до завдання 8 лекція 5 */
 
 html {
   /* Глобальні змінні */
+  --primary-font-family: "Roboto", sans-serif;
+  --primary-font-size: 0.875rem;
   --primary-text-color: #000;
   --primary-bg-color: #fff;
 }
@@ -10,4 +13,10 @@ footer {
   /* Змінні для Footer*/
   --footer-text-color: #fff;
   --footer-bg-color: #000;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }

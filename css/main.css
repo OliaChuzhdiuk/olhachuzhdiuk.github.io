@@ -1,3 +1,6 @@
+/* Стилі до завдання 7 лекції 5 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
 @import url("./common.css");
 @import url("./about.css");
 @import url("./blog.css");
@@ -6,6 +9,10 @@
 
 /* Використання глобальних змінних для елемента body */
 body {
+  /* Стилі до завдання 8 лекції 5 */
+  font-family: var(--primary-font-family);
+  font-size: var(--primary-font-size);
+
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
@@ -19,6 +26,33 @@ body {
  @import url("my-imported-styles.css"); */
 
 /* Неправильне розміщення @import. Згідно специфікації CSS, правило @import повинно розташовуватися на початку CSS-файлу */
+
+/* Слилі до лекції 5 */
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
 h1 {
+  font-size: 1.45rem;
   color: black;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.footer-social a {
+  cursor: pointer;
+  color: #333;
+}
+
+.footer-social a i {
+  margin-right: 10px;
 }
