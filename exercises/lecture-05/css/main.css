@@ -5,13 +5,11 @@ body {
   font-size: 16px;
 }
 /* Слова «Outer» відображається з розміром 25,6 пікселів, а слово «inner» — 40,96 пікселів. */
-/* Розмір слова "Outer" / Розмір шрифту body = 25.6 / 16 = 1.6em */
 div {
-  font-size: 1.6em;
+  font-size: 1em;
 }
-/* Розмір шрифту body = 40.96 / 16 = 2.56em */
 span {
-  font-size: 2.56em;
+  font-size: 1.6em;
 }
 /* Стилі до завдання 4 */
 strong {
