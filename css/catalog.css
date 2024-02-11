@@ -1,4 +1,19 @@
 /* catalog.css */
-h1 {
-  color: blueviolet;
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.bg-dark {
+  background-color: black;
+}
+.text-white {
+  color: white;
+}
+ul.categories li a {
+  color: indigo;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+ul.categories li a:hover {
+  background-color: lightgray;
 }

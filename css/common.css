@@ -1,7 +1,6 @@
 /* common.css */
 /* Стилі до завдання 8 лекція 5 */
-
-html {
+root {
   /* Глобальні змінні */
   --primary-font-family: "Roboto", sans-serif;
   --primary-font-size: 0.875rem;

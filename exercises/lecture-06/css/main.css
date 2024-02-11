@@ -1,0 +1,75 @@
+/* Стилі до завдання 2 */
+a {
+  color: indigo;
+}
+a:visited {
+  color: gold;
+}
+a:hover {
+  color: salmon;
+}
+a:active {
+  color: red;
+}
+a:focus {
+  color: orange;
+}
+/* Стилі до завдання 3 */
+input:in-range {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+}
+/* Стилі до завдання 4 */
+ul:nth-child(5) li:first-child {
+  color: orange;
+}
+
+/* Стилі до завдання 5 */
+ul:nth-child(6) :first-of-type {
+  color: orange;
+}
+
+/* Стилі до завдання 6 */
+ul:nth-child(7) :last-of-type {
+  color: orange;
+}
+
+/* Стилі до завдання 7 */
+ul:nth-child(8) li:not(.first-item) {
+  color: orange;
+}
+ul:nth-child(8) li:not(.first-item):not(:last-of-type) {
+  background: yellow;
+  color: black;
+}
+
+/* Стилі до завлання 8 */
+ol li:nth-child(2) {
+  color: orange;
+}
+
+ol li:nth-child(even) {
+  color: orange;
+}
+
+ol li:nth-child(2n + 6) {
+  color: orange;
+}
+
+/* Стилі до завдання 9 */
+h1.ua::before {
+  content: "Слава ";
+}
+
+/* Стилі до завдання 10 */
+h1.hero::after {
+  content: " Слава!";
+}
+
+/* Стилі до завдання 11 */
+p::before {
+  content: "\0A7";
+}
