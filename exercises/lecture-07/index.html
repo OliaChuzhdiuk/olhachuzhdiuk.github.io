@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 7</title>
+    <link
+      rel="shortcut icon"
+      href="../../favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <style>
+      /* Стилі до завдання 1 */
+      .negative {
+        background: linear-gradient(
+          to left,
+          rgb(102, 179, 255) -50%,
+          rgb(0, 128, 255) -10%,
+          rgb(0, 102, 204) 0%,
+          rgb(0, 77, 153) 100%,
+          rgb(0, 51, 102) 150%
+        );
+        padding: 20px;
+        text-align: center;
+      }
+      .percents {
+        background: linear-gradient(
+          to bottom,
+          rgb(102, 255, 102) 2em,
+          rgb(0, 255, 0) 4em,
+          rgb(0, 204, 0) 8em,
+          rgb(0, 153, 0) 16em,
+          rgb(0, 102, 0) 32em,
+          rgb(0, 51, 0) 64em,
+          rgb(0, 26, 0) 128em
+        );
+        padding: 10px;
+        text-align: center;
+      }
+
+      .radial {
+        background: radial-gradient(ellipse at center, transparent, orange),
+          radial-gradient(ellipse at center, transparent, red);
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body class="body">
+    <h1>Gradient Text Glow</h1>
+
+    <div class="percents">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <div class="negative">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <div class="radial">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cum magnam
+      quae adipisci minima illum porro eius ipsa rem. Sequi eaque facere
+      necessitatibus fugiat rerum facilis reprehenderit numquam dignissimos
+      itaque!
+    </div>
+
+    <!-- Завдання 2 -->
+    <svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+      <rect
+        x="20"
+        y="20"
+        width="100"
+        height="100"
+        fill="lightgray"
+        stroke="#1c87c9"
+        stroke-width="4"
+      />
+    </svg>
+    <!-- Завдання 3 -->
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle
+        cx="100"
+        cy="70"
+        r="60"
+        stroke="red"
+        stroke-width="4"
+        fill="lightgray"
+      />
+    </svg>
+
+    <!-- Завдання 4 -->
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle
+        cx="100"
+        cy="100"
+        r="90"
+        stroke="black"
+        stroke-width="4"
+        fill="white"
+      />
+      <line
+        x1="100"
+        y1="100"
+        x2="150"
+        y2="100"
+        stroke="black"
+        stroke-width="6"
+      />
+      <circle cx="100" cy="100" r="4" fill="black" />
+    </svg>
+    <!-- Завдання 5 -->
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <polygon
+        points="100,25 122,79 181,79 133,112 154,168 100,135 46,168 67,112 19,79 78,79"
+        fill="yellow"
+      />
+    </svg>
+  </body>
+</html>
