@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Lesson 8</title>
+    <style>
+      /* Стилі до завдання 1 */
+      .box_1 {
+        padding: 10px 20px 25px;
+        margin: 25px 20px;
+      }
+
+      /* Стилі до завдання 2 */
+      .box_2 {
+        width: 300px;
+        padding: 10px;
+        border: dashed 2px green;
+      }
+      /* Width = 300px 
+      Padding = 10px зліва + 10px справа = 20px
+      Border = 2px зліва + 2px справа = 4px
+      Ширина .box = 300px + 20px + 4px = 324px */
+
+      /* Стилі до завдання 3 */
+      .first-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      }
+      /*  Width = 200px
+      Padding зліва і справа = 20px + 20px = 40px
+      Border = 8px зліва + 8px справа = 16px
+      Ширина .first-box = 200px + 40px + 16px = 256px 
+      Height = 100px
+      Padding зверху і знизу = 20px + 20px = 40px
+      Border  = 8px зверху + 8px знизу = 16px
+      Висота .first-box = 100px + 40px + 16px = 156px*/
+
+      /* Стилі до завдання 4 */
+      .second-box {
+        width: 200px;
+        height: 100px;
+        border: 8px solid blue;
+        background: yellow;
+      }
+      /* Width = 200px
+      Border  = 8px зліва + 8px справа = 16px
+      Ширина  .second-box = 200px + 16px = 216px 
+      Height = 100px
+      Border  = 8px зверху + 8px знизу = 16px
+      Висота .second-box = 100px + 16px = 116px*/
+
+      /* Стилі до завдання 5 */
+      /* div {
+        box-sizing: content-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      } */
+      /* Width  = 200px
+      Padding зліва і справа = 20px + 20px = 40px
+      Border = 8px зліва + 8px справа = 16px
+      Ширина div = 200px + 40px + 16px = 256px */
+
+      /* Стилі до завдання 6 */
+      /* div {
+        box-sizing: border-box;
+        width: 200px;
+        border: 8px solid blue;
+        padding: 20px;
+        background: yellow;
+      } */
+      /*  Width = 200px
+      Padding зліва і справа = 20px + 20px = 40px
+      Border зліва і справа = 8px + 8px = 16px
+      Ширина div = 200px - (40px + 16px) = 144px */
+
+      /* Стилі до завдання 7 */
+      .exampel {
+        border: 10px dotted black;
+        padding: 15px;
+        background: lightblue;
+      }
+      #example1 {
+        background-clip: border-box;
+      }
+      #example2 {
+        background-clip: padding-box;
+      }
+      #example3 {
+        background-clip: content-box;
+      }
+
+      /* Стилі до завдання 8 */
+      h1 {
+        display: inline-block;
+        inline-size: min-content;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Завдання 1 -->
+    <div class="box_1">Завдання 1</div>
+    <!-- Завдання 2 -->
+    <div class="box_2">Завдання 2</div>
+    <!-- Завдання 3 -->
+    <div class="first-box">Завдання 3</div>
+    <!-- Завдання 4 -->
+    <div class="second-box">Завдання 4</div>
+    <!-- Завдання 7 -->
+    <div class="exampel" id="example1">
+      <p>
+        Правило для example1: фон всередині елемента має простягатися за межі
+        рамки.
+      </p>
+    </div>
+    <div class="exampel" id="example2">
+      <p>
+        Правило для example2: фон всередині елемента має простягатися до
+        внутрішнього краю рамки.
+      </p>
+    </div>
+    <div class="exampel" id="example3">
+      <p>
+        Правило для example3: фон всередині елемента має простягатися до краю
+        поля вмісту.
+      </p>
+    </div>
+    <!-- Завдання 8 -->
+    <h1><span>Awesome article</span></h1>
+  </body>
+</html>
