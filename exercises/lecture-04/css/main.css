@@ -46,57 +46,62 @@ div ~ p {
 /* Стилі до завдання 5 */
 .black {
   --hex-black-color: #000000;
-  --rgb-black-color: rgb(0, 0, 0);
-  --hsl-black-color: hsl(0, 0%, 0%);
-  --rgba-black-color: rgba(0, 0, 0, 0.5);
+  --rgb-black-color: rgb(0 0 0);
+  --hsl-black-color: hsl(0 0% 0%);
+  --rgba-black-color: rgba(0 0 0 0.5);
 }
 .blue {
   --hex-blue-color: #0000ff;
-  --rgb-blue-color: rgb(0, 0, 255);
-  --hsl-blue-color: hsl(240, 100%, 50%);
-  --rgba-blue-color: rgba(0, 0, 255, 0.5);
+  --rgb-blue-color: rgb(0 0 255);
+  --hsl-blue-color: hsl(240 100% 50%);
+  --rgba-blue-color: rgba(0 0 255 0.5);
 }
 .green {
   --hex-green-color: #008000;
-  --rgb-green-color: rgb(0, 128, 0);
-  --hsl-green-color: hsl(120, 100%, 25%);
-  --rgba-green-color: rgba(0, 128, 0, 0.5);
+  --rgb-green-color: rgb(0 128 0);
+  --hsl-green-color: hsl(120 100% 25%);
+  --rgba-green-color: rgba(0 128 0 0.5);
 }
 .red {
   --hex-red-color: #ff0000;
-  --rgb-red-color: rgb(255, 0, 0);
-  --hsl-red-color: hsl(0, 100%, 50%);
-  --rgba-red-color: rgba(255, 0, 0, 0.5);
+  --rgb-red-color: rgb(255 0 0);
+  --hsl-red-color: hsl(0 100% 50%);
+  --rgba-red-color: rgba(255 0 0 0.5);
 }
 
 .white {
   --hex-white-color: #ffffff;
-  --rgb-white-color: rgb(255, 255, 255);
-  --hsl-white-color: hsl(0, 0%, 100%);
-  --rgba-white-color: rgba(255, 255, 255, 0.5);
+  --rgb-white-color: rgb(255 255 255);
+  --hsl-white-color: hsl(0 0% 100%);
+  --rgba-white-color: rgba(255 255 255 0.5);
 }
 
 .yellow {
   --hex-yellow-color: #ffff00;
-  --rgb-yellow-color: rgb(255, 255, 0);
-  --hsl-yellow-color: hsl(60, 100%, 50%);
-  --rgba-yellow-color: rgba(255, 255, 0, 0.5);
+  --rgb-yellow-color: rgb(255 255 0);
+  --hsl-yellow-color: hsl(60 100% 50%);
+  --rgba-yellow-color: rgba(255 255 0 0.5);
 }
 
 /* Стилі до завдання 6 */
 .translucent-box {
   width: 200px;
   height: 50px;
-  background: hsla(0, 100%, 50%, 0.5);
+  background: hsla(0 100% 50% 0.5);
 }
 
 /* Стилі до завдання 7 */
 /* html {
-  font-size: 100%;
+  font-size: 1 em;
 }
 body {
-  font-size: 140%;
+  font-size: 1.4em; 
 }
 h1 {
-  font-size: 240%;
-} */
+  font-size: 2.4em;
+}
+Базовий розмір шрифта для кореневого елемента: 1 em еквівалентно 100%.
+Розмір шрифта для body (збільшений на 40%):
+1.4em (оскільки 100% + 40% = 140%).
+Розмір шрифта для h1 (збільшений на 140%):
+2.4em (оскільки 100% + 140% = 240%). */
