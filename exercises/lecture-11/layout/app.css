@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-areas:
+    "h h h"
+    "s m m"
+    "f f f";
+}
+.header {
+  grid-area: h;
+}
+.main {
+  grid-area: m;
+}
+.sidebar {
+  grid-area: s;
+}
+.footer {
+  grid-area: f;
+}
+
+/* Ще можна  з grid-container видалити grid-template-areas, і просто виктористати такий варіант */
+/* .header {
+  grid-column: span 3;
+}
+.main {
+  grid-column: span 2;
+}
+.footer {
+  grid-column: span 3;
+} */

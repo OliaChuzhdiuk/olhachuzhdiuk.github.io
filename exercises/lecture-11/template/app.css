@@ -1,0 +1,12 @@
+.grid {
+  --min: 30ch;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--min), 1fr));
+  gap: 1rem;
+}
+
+body {
+  --padding: 5vw;
+  --max-width: 180ch;
+}
