@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Lesson 17</title>
+  </head>
+  <body>
+    <!-- Завдання 1, 2 -->
+    <script>
+      // let x = 3;
+      // let y = 4;
+
+      x == 3; // true
+      x === "3"; // false
+      x != 5; // true
+      x !== "5"; // true
+      X !== 3; // ReferenceError: X is not defined
+      y > 5; // false
+      y >= 3; // true
+      y < 5; // true
+      y <= 2; // false
+      1 == true; // true
+      null == undefined; // true
+      NaN == NaN; // false
+
+      let x = 3;
+      let y = 4;
+      let z = 5;
+
+      x ||= y; // 3
+      x || (y = z); // 3
+      x &&= y; // 4
+      x && (y = z); // 5
+      x ??= y; // 4
+      x ?? (y = z); // 4
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
