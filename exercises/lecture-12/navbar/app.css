@@ -23,6 +23,7 @@ header {
 .navbar {
   margin: 0;
   padding: 0;
+  flex-direction: column;
 }
 
 .navbar a,
@@ -76,8 +77,8 @@ nav {
   margin-left: 1em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
   }
 }

@@ -85,8 +85,6 @@ function C() {
   return "foo";
 }
 // Завдання 8.1
-A();
-console.log(C());
+A() || console.log(C());
 // Завдання 8.2
-B();
-console.log(C());
+B() || console.log(C());

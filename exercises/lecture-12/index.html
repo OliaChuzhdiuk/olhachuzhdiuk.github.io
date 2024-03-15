@@ -21,19 +21,11 @@
       }
 
       p {
-        font-size: calc(16px + (48 - 16) * ((100vw - 768px) / (1920 - 768)));
-      }
-
-      @media screen and (max-width: 768px) {
-        p {
-          font-size: 16px;
-        }
-      }
-
-      @media screen and (min-width: 1920px) {
-        p {
-          font-size: 48px;
-        }
+        font-size: clamp(
+          16px,
+          calc(20px + (36 - 20) * ((100vw - 768px) / (1920 - 768))),
+          48px
+        );
       }
     </style>
   </head>
