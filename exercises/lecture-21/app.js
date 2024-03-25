@@ -86,3 +86,4 @@ if (namesFifteenTask.includes("Alfred")) {
   deleteName.splice(index, 1);
 }
 console.log(namesFifteenTask);
+
