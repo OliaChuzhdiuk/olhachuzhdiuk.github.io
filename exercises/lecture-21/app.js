@@ -81,9 +81,8 @@ console.log(namesFourteenTask);
 
 // Завдання 15
 const namesFifteenTask = ["Batman", "Catwoman", "Joker", "Bane"];
-if (namesFifteenTask.includes("Alfred")) {
-  const deleteName = namesFifteenTask.indexOf("Alfred");
-  deleteName.splice(index, 1);
+const index = namesFifteenTask.indexOf("Alfred");
+if (index !== -1) {
+  namesFifteenTask.splice(index, 1);
 }
 console.log(namesFifteenTask);
-
