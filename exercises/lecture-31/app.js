@@ -37,7 +37,6 @@ xhrPromise("GET", url)
     });
     document.getElementById("blog").innerHTML = result;
 
-    // Повертаємось до сервера для отримання користувачів
     return xhrPromise("GET", "https://jsonplaceholder.typicode.com/users");
   })
   .then((usersResponse) => {
