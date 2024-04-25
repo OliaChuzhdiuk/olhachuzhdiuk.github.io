@@ -63,27 +63,88 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <article>
+          <article id="post1">
+            <!-- Додано id -->
             <h2>Post Title 1</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               gravida, enim eget volutpat efficitur, metus ipsum vestibulum
               felis, et rutrum odio nisi at velit.
             </p>
-            <button class="btn btn-primary">Read More</button>
+            <p class="additional-text" style="display: none">
+              <!-- Доданий додатковий текст -->
+              Additional text for post 1. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Quis architecto nostrum sint ex
+              eligendi unde illum! Itaque atque iure eius, debitis voluptas
+              harum facere aspernatur repellendus, ipsam impedit voluptatibus
+              eum?
+            </p>
+            <button
+              class="btn btn-primary read-more"
+              onclick="toggleText('post1')"
+            >
+              Read More
+            </button>
+            <!-- Додано onclick -->
           </article>
           <hr />
-          <article>
+          <article id="post2">
+            <!-- Додано id -->
             <h2>Post Title 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              gravida, enim eget volutpat efficitur, metus ipsum vestibulum
+              felis, et rutrum odio nisi at velit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Natus ad pariatur quia quis iusto
+              placeat eos ipsum neque. Officiis asperiores molestiae beatae
+              porro nostrum suscipit, iure optio sunt culpa itaque?
+            </p>
+            <p class="additional-text" style="display: none">
+              <!-- Доданий додатковий текст -->
+              Additional text for post 2. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Itaque dolorum saepe, vitae
+              veritatis ea dolore! Consequatur cumque tempora hic fuga. Fugit
+              repudiandae corrupti voluptatibus esse voluptates, dolor eius
+              deserunt! Molestiae.
+            </p>
+            <button
+              class="btn btn-primary read-more"
+              onclick="toggleText('post2')"
+            >
+              Read More
+            </button>
+            <!-- Додано onclick -->
+          </article>
+          <article id="post3">
+            <!-- Додано id -->
+            <h2>Post Title 3</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               gravida, enim eget volutpat efficitur, metus ipsum vestibulum
               felis, et rutrum odio nisi at velit.
             </p>
-            <button class="btn btn-primary">Read More</button>
+            <p class="additional-text" style="display: none">
+              <!-- Доданий додатковий текст -->
+              Additional text for post 3. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Maxime amet quia, mollitia
+              architecto rem molestiae repellendus numquam dignissimos, corrupti
+              esse modi voluptatibus. Voluptatibus, aliquam. Laborum, deserunt.
+              Cumque veniam voluptatem illo. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Totam unde cupiditate explicabo aut
+              cumque, rem nulla ullam doloribus enim! Et, fuga! Corporis,
+              officiis! Iste at eligendi officiis perferendis similique magnam.
+            </p>
+            <button
+              class="btn btn-primary read-more"
+              onclick="toggleText('post3')"
+            >
+              Read More
+            </button>
           </article>
           <hr />
-          <!-- Add more articles as needed -->
         </div>
       </div>
     </div>
@@ -110,6 +171,12 @@
             <p>123 Main Street, City, Country</p>
             <p>Email: info@example.com</p>
             <p>Phone: +1234567890</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -117,5 +184,6 @@
         <p>&copy; 2024 Your Company. All rights reserved.</p>
       </div>
     </footer>
+    <script src="./js/blog.js"></script>
   </body>
 </html>
