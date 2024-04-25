@@ -9,11 +9,11 @@ function changeMainImage(imageUrl) {
 }
 document.getElementById("addToCart").addEventListener("click", function () {
   const size = document.getElementById("size").value;
-  const productName = document.querySelector(".card-title").textContent; // Отримуємо назву товару
+  const productName = document.querySelector(".card-title").textContent; 
   const priceText = document.querySelector(
     ".card-text:nth-child(2)"
-  ).textContent; // Отримуємо текст ціни
-  const itemPrice = parseFloat(priceText.replace("Price: $", "")); // Парсимо текст ціни у числове значення
+  ).textContent;
+  const itemPrice = parseFloat(priceText.replace("Price: $", "")); 
   const item = {
     name: productName,
     size: size,
