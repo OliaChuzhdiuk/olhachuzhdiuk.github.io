@@ -100,3 +100,30 @@ button:hover {
   text-decoration: none;
   cursor: pointer;
 }
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #ff7f50;
+}
+
+.social-icons a i {
+  color: #000000;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover i {
+  color: #ffffff;
+}
+.custom-nav .footer-link {
+  color: white;
+}
